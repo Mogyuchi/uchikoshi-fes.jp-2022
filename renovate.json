@@ -1,0 +1,17 @@
+{
+  "extends": ["config:base"],
+  "baseBranches": ["upgrade"],
+  "labels": ["dependencies"],
+  "prConcurrentLimit": 0,
+  "prHourlyLimit": 0,
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["*"],
+      "rangeStrategy": "pin"
+    }
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["after 10am"]
+  }
+}
