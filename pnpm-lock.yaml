@@ -27,7 +27,7 @@ specifiers:
   react: 18.2.0
   react-dom: 18.2.0
   sanitize.css: 13.0.0
-  sass: 1.53.0
+  sass: 1.54.0
   textlint: 12.2.1
   textlint-filter-rule-comments: 1.2.2
   textlint-plugin-jsx: 1.1.2
@@ -56,14 +56,14 @@ dependencies:
   '@fortawesome/react-fontawesome': 0.2.0_sdfg7szeivrzzj63kiqxwaxkwu
   '@mdx-js/loader': 2.1.2_webpack@5.73.0
   '@next/mdx': 12.2.3_todqhrvd7cvbb36hzi2r6xttgq
-  next: 12.2.3_yb7wisesljnl3zpl3umrw7y7ci
+  next: 12.2.3_ckhwt5v7fywslkplh6p4u2aony
   next-compose-plugins: 2.2.1
   next-seo: 5.5.0_53oqlnqnxhbetdy4ljlkkvmoby
   npm-run-all: 4.1.5
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   sanitize.css: 13.0.0
-  sass: 1.53.0
+  sass: 1.54.0
 
 devDependencies:
   '@testing-library/jest-dom': 5.16.4
@@ -1263,13 +1263,13 @@ packages:
     resolution: {integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==}
     dependencies:
       '@types/eslint': 8.4.5
-      '@types/estree': 0.0.51
+      '@types/estree': 1.0.0
     dev: false
 
   /@types/eslint/8.4.5:
     resolution: {integrity: sha512-dhsC09y1gpJWnK+Ff4SGvCuSnk9DaU0BJZSzOwa6GVSg65XtTugLBITDAAzRU5duGBoXBHpdR/9jHGxJjNflJQ==}
     dependencies:
-      '@types/estree': 0.0.51
+      '@types/estree': 1.0.0
       '@types/json-schema': 7.0.11
     dev: false
 
@@ -5215,12 +5215,12 @@ packages:
       react: '>=16.0.0'
       react-dom: '>=16.0.0'
     dependencies:
-      next: 12.2.3_yb7wisesljnl3zpl3umrw7y7ci
+      next: 12.2.3_ckhwt5v7fywslkplh6p4u2aony
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /next/12.2.3_yb7wisesljnl3zpl3umrw7y7ci:
+  /next/12.2.3_ckhwt5v7fywslkplh6p4u2aony:
     resolution: {integrity: sha512-TA0tmSA6Dk6S6kfvCNbF7CWYW8468gZUxr/3/30z4KvAQbXnl2ASYZElVe7q/hBW/1F1ee0tSBlHa4/sn+ZIBw==}
     engines: {node: '>=12.22.0'}
     hasBin: true
@@ -5244,7 +5244,7 @@ packages:
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      sass: 1.53.0
+      sass: 1.54.0
       styled-jsx: 5.0.2_lxeixztqul6ae7cp3cpkyxlhzm
       use-sync-external-store: 1.2.0_react@18.2.0
     optionalDependencies:
@@ -6108,8 +6108,8 @@ packages:
     resolution: {integrity: sha512-ZRwKbh/eQ6w9vmTjkuG0Ioi3HBwPFce0O+v//ve+aOq1oeCy7jMV2qzzAlpsNuqpqCBjjriM1lbtZbF/Q8jVyA==}
     dev: false
 
-  /sass/1.53.0:
-    resolution: {integrity: sha512-zb/oMirbKhUgRQ0/GFz8TSAwRq2IlR29vOUJZOx0l8sV+CkHUfHa4u5nqrG+1VceZp7Jfj59SVW9ogdhTvJDcQ==}
+  /sass/1.54.0:
+    resolution: {integrity: sha512-C4zp79GCXZfK0yoHZg+GxF818/aclhp9F48XBu/+bm9vXEVAYov9iU3FBVRMq3Hx3OA4jfKL+p2K9180mEh0xQ==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
