@@ -29,7 +29,7 @@ specifiers:
   react: 18.2.0
   react-aria: 3.20.0
   react-dom: 18.2.0
-  react-intersection-observer: 9.4.0
+  react-intersection-observer: 9.4.1
   react-player: 2.11.0
   react-responsive: 9.0.0
   react-stately: 3.18.0
@@ -72,7 +72,7 @@ dependencies:
   react: 18.2.0
   react-aria: 3.20.0_biqbaboplfbrettd7655fr4n2y
   react-dom: 18.2.0_react@18.2.0
-  react-intersection-observer: 9.4.0_react@18.2.0
+  react-intersection-observer: 9.4.1_react@18.2.0
   react-player: 2.11.0_react@18.2.0
   react-responsive: 9.0.0_react@18.2.0
   react-stately: 3.18.0_react@18.2.0
@@ -7373,10 +7373,10 @@ packages:
     resolution: {integrity: sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==}
     dev: false
 
-  /react-intersection-observer/9.4.0_react@18.2.0:
-    resolution: {integrity: sha512-v0403CmomOVlzhqFXlzOxg0ziLcVq8mfbP0AwAcEQWgZmR2OulOT79Ikznw4UlB3N+jlUYqLMe4SDHUOyp0t2A==}
+  /react-intersection-observer/9.4.1_react@18.2.0:
+    resolution: {integrity: sha512-IXpIsPe6BleFOEHKzKh5UjwRUaz/JYS0lT/HPsupWEQou2hDqjhLMStc5zyE3eQVT4Fk3FufM8Fw33qW1uyeiw==}
     peerDependencies:
-      react: ^15.0.0 || ^16.0.0 || ^17.0.0|| ^18.0.0
+      react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
     dependencies:
       react: 18.2.0
     dev: false
