@@ -38,7 +38,7 @@ specifiers:
   sass: 1.55.0
   textlint: 12.2.2
   textlint-filter-rule-comments: 1.2.2
-  textlint-plugin-jsx: 1.1.2
+  textlint-plugin-jsx: 1.1.3
   textlint-rule-ja-hiragana-fukushi: 1.3.0
   textlint-rule-ja-hiragana-hojodoushi: 1.0.4
   textlint-rule-ja-hiragana-keishikimeishi: 1.1.0
@@ -96,7 +96,7 @@ devDependencies:
   prettier: 2.7.1
   textlint: 12.2.2
   textlint-filter-rule-comments: 1.2.2_textlint@12.2.2
-  textlint-plugin-jsx: 1.1.2_typescript@4.8.4
+  textlint-plugin-jsx: 1.1.3_typescript@4.8.4
   textlint-rule-ja-hiragana-fukushi: 1.3.0
   textlint-rule-ja-hiragana-hojodoushi: 1.0.4
   textlint-rule-ja-hiragana-keishikimeishi: 1.1.0
@@ -8292,8 +8292,8 @@ packages:
       textlint: 12.2.2
     dev: true
 
-  /textlint-plugin-jsx/1.1.2_typescript@4.8.4:
-    resolution: {integrity: sha512-8HwpdUR0nCudBtISiqjx8b9ldAiAo8kUGUjv9fxzthgP3XE7CM0oHjrs8amnAUNp2IphUWoyoAHr2+SpnRhb7w==}
+  /textlint-plugin-jsx/1.1.3_typescript@4.8.4:
+    resolution: {integrity: sha512-r+kfso62mA5wSRzK/4w1EgVmwGJVN5JKX22aYqLxYV0Co3mn5M02eJnV0iIq9t2eCcRf2FKsYCuM+ZFZnyJx/Q==}
     peerDependencies:
       typescript: '*'
     dependencies:
