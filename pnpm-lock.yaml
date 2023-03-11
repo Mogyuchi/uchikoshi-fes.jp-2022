@@ -40,7 +40,7 @@ specifiers:
   textlint-filter-rule-comments: 1.2.2
   textlint-plugin-jsx: 1.1.2
   textlint-rule-ja-hiragana-fukushi: 1.3.0
-  textlint-rule-ja-hiragana-hojodoushi: 1.0.4
+  textlint-rule-ja-hiragana-hojodoushi: 1.1.0
   textlint-rule-ja-hiragana-keishikimeishi: 1.1.0
   textlint-rule-ja-no-abusage: 3.0.0
   textlint-rule-ja-no-inappropriate-words: 2.0.0
@@ -98,7 +98,7 @@ devDependencies:
   textlint-filter-rule-comments: 1.2.2_textlint@12.2.2
   textlint-plugin-jsx: 1.1.2_typescript@4.8.4
   textlint-rule-ja-hiragana-fukushi: 1.3.0
-  textlint-rule-ja-hiragana-hojodoushi: 1.0.4
+  textlint-rule-ja-hiragana-hojodoushi: 1.1.0
   textlint-rule-ja-hiragana-keishikimeishi: 1.1.0
   textlint-rule-ja-no-abusage: 3.0.0_e6f5qegxjw2uhpjztc7wbhaveq
   textlint-rule-ja-no-inappropriate-words: 2.0.0
@@ -5702,7 +5702,7 @@ packages:
     dev: false
 
   /kuromoji/0.1.1:
-    resolution: {integrity: sha1-Sqvzm8zti4rZLQB6BKJr5tqEd8k=}
+    resolution: {integrity: sha512-B7ctEuhoYzRDbgsRn/3NQVee/Q4WRFVuCxkYtnQLl+t/5tw2f7JL0GQH/CQQ3gqlaEvBJgfnGNA6st09wmqkRA==}
     dependencies:
       async: 2.6.4
       doublearray: 0.0.2
@@ -8322,12 +8322,13 @@ packages:
       untildify: 4.0.0
     dev: true
 
-  /textlint-rule-ja-hiragana-hojodoushi/1.0.4:
-    resolution: {integrity: sha1-OUlfUSpQuHPgNLVdM9+NnGi55k0=}
+  /textlint-rule-ja-hiragana-hojodoushi/1.1.0:
+    resolution: {integrity: sha512-J+7thUQx5/o4grCbgiQPwT5uFhXYulaP+rf+QnA8H5fYrEjwDrvSlU/RVuibbrYIjigDso09FU8lft02y+XgMA==}
     dependencies:
       js-yaml: 3.14.1
-      kuromojin: 1.5.1
+      kuromojin: 2.1.1
       morpheme-match-all: 1.2.0
+      untildify: 4.0.0
     dev: true
 
   /textlint-rule-ja-hiragana-keishikimeishi/1.1.0:
