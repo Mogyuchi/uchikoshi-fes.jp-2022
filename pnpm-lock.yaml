@@ -53,7 +53,7 @@ specifiers:
   textlint-rule-no-mix-dearu-desumasu: 5.0.0
   textlint-rule-no-nfd: 1.0.2
   textlint-rule-prefer-tari-tari: 1.0.3
-  textlint-rule-preset-ja-spacing: 2.2.0
+  textlint-rule-preset-ja-spacing: 2.3.0
   typescript: 4.8.4
 
 dependencies:
@@ -111,7 +111,7 @@ devDependencies:
   textlint-rule-no-mix-dearu-desumasu: 5.0.0_e6f5qegxjw2uhpjztc7wbhaveq
   textlint-rule-no-nfd: 1.0.2_e6f5qegxjw2uhpjztc7wbhaveq
   textlint-rule-prefer-tari-tari: 1.0.3_e6f5qegxjw2uhpjztc7wbhaveq
-  textlint-rule-preset-ja-spacing: 2.2.0_e6f5qegxjw2uhpjztc7wbhaveq
+  textlint-rule-preset-ja-spacing: 2.3.0_e6f5qegxjw2uhpjztc7wbhaveq
   typescript: 4.8.4
 
 packages:
@@ -8415,8 +8415,8 @@ packages:
       - '@textlint/types'
     dev: true
 
-  /textlint-rule-ja-space-between-half-and-full-width/2.2.0_e6f5qegxjw2uhpjztc7wbhaveq:
-    resolution: {integrity: sha512-/NJb0FrBa0qx/Z1SuW1nE0dhERCRNxz8IkdZ8V3VPxtZIaeBbPLdYxLf7h5qJnEAapqSd85pvZ4EXZI3RArvYw==}
+  /textlint-rule-ja-space-between-half-and-full-width/2.3.0_e6f5qegxjw2uhpjztc7wbhaveq:
+    resolution: {integrity: sha512-XJmw9fiKCK32P1fVGnYsqr1RdrWxTSqVqBPPHFVaIZhS1pBR7FsxdcR1SD6vEKe+EBJDEEZhJxrw8Pi1E5E22g==}
     dependencies:
       match-index: 1.0.3
       textlint-rule-helper: 2.2.1_e6f5qegxjw2uhpjztc7wbhaveq
@@ -8521,8 +8521,8 @@ packages:
       - supports-color
     dev: true
 
-  /textlint-rule-preset-ja-spacing/2.2.0_e6f5qegxjw2uhpjztc7wbhaveq:
-    resolution: {integrity: sha512-o8bCFoN5d5rnDVIIwULVIGMjsibupJ5S4J1vtXdXLar7TG7HsXHe2f/rHxP4gApy+fBC/RI6EXui62Zt6PCGZw==}
+  /textlint-rule-preset-ja-spacing/2.3.0_e6f5qegxjw2uhpjztc7wbhaveq:
+    resolution: {integrity: sha512-HqDv2P69uNFFRSYE22GW3xuApXUmcNr17pAaYn72nVRdUQsxfP4GBNlxONghj1US1G1ipXcfllE9xQ7tKTZWpw==}
     dependencies:
       textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana: 2.2.0_e6f5qegxjw2uhpjztc7wbhaveq
       textlint-rule-ja-no-space-around-parentheses: 2.2.0_e6f5qegxjw2uhpjztc7wbhaveq
@@ -8530,7 +8530,7 @@ packages:
       textlint-rule-ja-space-after-exclamation: 2.2.0_e6f5qegxjw2uhpjztc7wbhaveq
       textlint-rule-ja-space-after-question: 2.2.0_e6f5qegxjw2uhpjztc7wbhaveq
       textlint-rule-ja-space-around-code: 2.2.0_e6f5qegxjw2uhpjztc7wbhaveq
-      textlint-rule-ja-space-between-half-and-full-width: 2.2.0_e6f5qegxjw2uhpjztc7wbhaveq
+      textlint-rule-ja-space-between-half-and-full-width: 2.3.0_e6f5qegxjw2uhpjztc7wbhaveq
     transitivePeerDependencies:
       - '@textlint/ast-node-types'
       - '@textlint/types'
