@@ -55,7 +55,7 @@
     "sass": "1.55.0"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "5.16.5",
+    "@testing-library/jest-dom": "5.17.0",
     "@testing-library/react": "13.4.0",
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": "2.0.1",
     "@textlint/ast-node-types": "12.2.2",
