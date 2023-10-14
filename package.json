@@ -66,7 +66,7 @@
     "husky": "8.0.1",
     "jest": "29.1.2",
     "jest-environment-jsdom": "29.1.2",
-    "lint-staged": "13.0.3",
+    "lint-staged": "15.0.0",
     "prettier": "2.7.1",
     "textlint": "12.2.2",
     "textlint-filter-rule-comments": "1.2.2",
