@@ -47,7 +47,7 @@ jobs:
           avatar_url: https://github.com/actions.png
 
       - name: Send failure mention to Discord
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         if: failure()
         env:
           ACTOR: ${{ github.actor }}
