@@ -77,7 +77,7 @@
     "textlint-rule-ja-no-abusage": "3.0.0",
     "textlint-rule-ja-no-inappropriate-words": "2.0.0",
     "textlint-rule-ja-unnatural-alphabet": "2.0.1",
-    "textlint-rule-no-doubled-conjunction": "2.0.4",
+    "textlint-rule-no-doubled-conjunction": "3.0.0",
     "textlint-rule-no-doubled-conjunctive-particle-ga": "2.0.4",
     "textlint-rule-no-doubled-joshi": "4.0.1",
     "textlint-rule-no-dropping-the-ra": "3.0.0",
