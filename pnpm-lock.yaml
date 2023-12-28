@@ -17,7 +17,7 @@ specifiers:
   eslint-config-prettier: 8.5.0
   framer-motion: 7.5.3
   husky: 8.0.1
-  image-size: 1.0.2
+  image-size: 1.1.0
   jest: 29.1.2
   jest-environment-jsdom: 29.1.2
   license-checker: 25.0.1
@@ -64,7 +64,7 @@ dependencies:
   '@mdx-js/loader': 2.1.5_webpack@5.74.0
   '@next/mdx': 12.3.1_5ubengro3mr4ehq4wjt7bymshu
   framer-motion: 7.5.3_biqbaboplfbrettd7655fr4n2y
-  image-size: 1.0.2
+  image-size: 1.1.0
   license-checker: 25.0.1
   next: 12.3.1_t4rlpiak7a4px4yj7qxbrylwuq
   next-seo: 5.5.0_azq6kxkn3od7qdylwkyksrwopy
@@ -4718,9 +4718,9 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
-  /image-size/1.0.2:
-    resolution: {integrity: sha512-xfOoWjceHntRb3qFCrh5ZFORYH8XCdYpASltMhZ/Q0KZiOwjdE/Yl2QCiWdwD+lygV5bMCvauzgu5PxBX/Yerg==}
-    engines: {node: '>=14.0.0'}
+  /image-size/1.1.0:
+    resolution: {integrity: sha512-asnTHw2K8OlqT5kVnQwX+AGKQqpvLo95LbNzQ/C0ln3yzentZmAdd0ygoD004VC4Kkd4PV7J2iaPQkqwp9yuTw==}
+    engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
       queue: 6.0.2
