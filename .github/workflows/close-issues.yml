@@ -16,7 +16,7 @@ permissions:
 jobs:
   close:
     if: github.event.pull_request.merged
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GH_REPO: ${{ github.repository }}

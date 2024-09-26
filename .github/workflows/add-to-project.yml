@@ -20,7 +20,7 @@ jobs:
     name: Add to project
     if: |
       ! github.event.repository.fork
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       ISSUE: ${{ github.event.issue.node_id }}
