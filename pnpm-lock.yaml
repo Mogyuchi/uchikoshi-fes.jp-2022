@@ -17,7 +17,7 @@ specifiers:
   eslint-config-prettier: 8.5.0
   framer-motion: 7.5.3
   husky: 8.0.1
-  image-size: 1.0.2
+  image-size: 2.0.0
   jest: 29.1.2
   jest-environment-jsdom: 29.1.2
   license-checker: 25.0.1
@@ -64,7 +64,7 @@ dependencies:
   '@mdx-js/loader': 2.1.5_webpack@5.74.0
   '@next/mdx': 12.3.1_5ubengro3mr4ehq4wjt7bymshu
   framer-motion: 7.5.3_biqbaboplfbrettd7655fr4n2y
-  image-size: 1.0.2
+  image-size: 2.0.0
   license-checker: 25.0.1
   next: 12.3.1_t4rlpiak7a4px4yj7qxbrylwuq
   next-seo: 5.5.0_azq6kxkn3od7qdylwkyksrwopy
@@ -2928,6 +2928,7 @@ packages:
 
   /acorn-import-assertions/1.8.0_acorn@8.8.0:
     resolution: {integrity: sha512-m7VZ3jwz4eK6A4Vtt8Ew1/mNbP24u0FhdyfA7fSvnJR6LMdfOYnmuIrrJAgrYfYJ10F/otaHTtrtrtmHdMNzEw==}
+    deprecated: package has been renamed to acorn-import-attributes
     peerDependencies:
       acorn: ^8
     dependencies:
@@ -4718,12 +4719,10 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
-  /image-size/1.0.2:
-    resolution: {integrity: sha512-xfOoWjceHntRb3qFCrh5ZFORYH8XCdYpASltMhZ/Q0KZiOwjdE/Yl2QCiWdwD+lygV5bMCvauzgu5PxBX/Yerg==}
-    engines: {node: '>=14.0.0'}
+  /image-size/2.0.0:
+    resolution: {integrity: sha512-HP07n1SpdIXGUL4VotUIOQz66MQOq8g7VN+Yj02YTVowqZScQ5i/JYU0+lkNr2pwt5j4hOpk94/UBV1ZCbS2fA==}
+    engines: {node: '>=16.x'}
     hasBin: true
-    dependencies:
-      queue: 6.0.2
     dev: false
 
   /immutable/4.1.0:
@@ -7294,12 +7293,6 @@ packages:
   /queue-microtask/1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
-
-  /queue/6.0.2:
-    resolution: {integrity: sha512-iHZWu+q3IdFZFX36ro/lKBkSvfkztY5Y7HMiPlOUjhupPcG2JMfst2KKEpu5XndviX/3UhFbRngUPNKtgvtZiA==}
-    dependencies:
-      inherits: 2.0.4
-    dev: false
 
   /randombytes/2.1.0:
     resolution: {integrity: sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==}
