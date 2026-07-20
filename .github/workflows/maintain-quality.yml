@@ -13,11 +13,11 @@ jobs:
     if: github.event_name == 'push' || github.event.pull_request.head.repo.fork
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v3
-      - uses: pnpm/action-setup@v2
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v3.7.0
+      - uses: pnpm/action-setup@v2.4.1
+      - uses: actions/setup-node@v3.9.1
         with:
-          node-version: 16
+          node-version: 16.20.2
           cache: pnpm
       - run: pnpm install
 
@@ -31,7 +31,7 @@ jobs:
           exit $exit_code
 
       - name: Send failure message to Discord with embed
-        uses: sarisia/actions-status-discord@v1
+        uses: sarisia/actions-status-discord@v1.16.0
         if: failure()
         with:
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
@@ -47,7 +47,7 @@ jobs:
           avatar_url: https://github.com/actions.png
 
       - name: Send failure mention to Discord
-        uses: actions/github-script@v6
+        uses: actions/github-script@v6.4.1
         if: failure()
         env:
           ACTOR: ${{ github.actor }}
@@ -88,11 +88,11 @@ jobs:
     if: github.event_name == 'push' || github.event.pull_request.head.repo.fork
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v3
-      - uses: pnpm/action-setup@v2
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v3.7.0
+      - uses: pnpm/action-setup@v2.4.1
+      - uses: actions/setup-node@v3.9.1
         with:
-          node-version: 16
+          node-version: 16.20.2
           cache: pnpm
       - run: pnpm install
       - name: Test
