@@ -29,7 +29,7 @@ specifiers:
   react: 18.2.0
   react-aria: 3.20.0
   react-dom: 18.2.0
-  react-intersection-observer: 9.4.0
+  react-intersection-observer: 11.0.0
   react-player: 2.11.0
   react-responsive: 9.0.0
   react-stately: 3.18.0
@@ -72,7 +72,7 @@ dependencies:
   react: 18.2.0
   react-aria: 3.20.0_biqbaboplfbrettd7655fr4n2y
   react-dom: 18.2.0_react@18.2.0
-  react-intersection-observer: 9.4.0_react@18.2.0
+  react-intersection-observer: 11.0.0_biqbaboplfbrettd7655fr4n2y
   react-player: 2.11.0_react@18.2.0
   react-responsive: 9.0.0_react@18.2.0
   react-stately: 3.18.0_react@18.2.0
@@ -2928,6 +2928,7 @@ packages:
 
   /acorn-import-assertions/1.8.0_acorn@8.8.0:
     resolution: {integrity: sha512-m7VZ3jwz4eK6A4Vtt8Ew1/mNbP24u0FhdyfA7fSvnJR6LMdfOYnmuIrrJAgrYfYJ10F/otaHTtrtrtmHdMNzEw==}
+    deprecated: package has been renamed to acorn-import-attributes
     peerDependencies:
       acorn: ^8
     dependencies:
@@ -7373,12 +7374,17 @@ packages:
     resolution: {integrity: sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==}
     dev: false
 
-  /react-intersection-observer/9.4.0_react@18.2.0:
-    resolution: {integrity: sha512-v0403CmomOVlzhqFXlzOxg0ziLcVq8mfbP0AwAcEQWgZmR2OulOT79Ikznw4UlB3N+jlUYqLMe4SDHUOyp0t2A==}
+  /react-intersection-observer/11.0.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-tF2PjXa//GcUmkCIcZR2qGsj6HwnuunFQdgeJ89BwFE6epB7E9yIzdr018H1khxG7DiMpIDvAne1GKQMFwn+fw==}
     peerDependencies:
-      react: ^15.0.0 || ^16.0.0 || ^17.0.0|| ^18.0.0
+      react: ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^17.0.0 || ^18.0.0 || ^19.0.0
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
     dependencies:
       react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /react-is/16.13.1:
