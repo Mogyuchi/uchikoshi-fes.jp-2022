@@ -43,7 +43,7 @@ specifiers:
   textlint-rule-ja-hiragana-hojodoushi: 1.0.4
   textlint-rule-ja-hiragana-keishikimeishi: 1.1.0
   textlint-rule-ja-no-abusage: 3.0.0
-  textlint-rule-ja-no-inappropriate-words: 2.0.0
+  textlint-rule-ja-no-inappropriate-words: 2.0.1
   textlint-rule-ja-unnatural-alphabet: 2.0.1
   textlint-rule-no-doubled-conjunction: 2.0.4
   textlint-rule-no-doubled-conjunctive-particle-ga: 2.0.4
@@ -101,7 +101,7 @@ devDependencies:
   textlint-rule-ja-hiragana-hojodoushi: 1.0.4
   textlint-rule-ja-hiragana-keishikimeishi: 1.1.0
   textlint-rule-ja-no-abusage: 3.0.0_e6f5qegxjw2uhpjztc7wbhaveq
-  textlint-rule-ja-no-inappropriate-words: 2.0.0
+  textlint-rule-ja-no-inappropriate-words: 2.0.1
   textlint-rule-ja-unnatural-alphabet: 2.0.1
   textlint-rule-no-doubled-conjunction: 2.0.4_e6f5qegxjw2uhpjztc7wbhaveq
   textlint-rule-no-doubled-conjunctive-particle-ga: 2.0.4_e6f5qegxjw2uhpjztc7wbhaveq
@@ -2928,6 +2928,7 @@ packages:
 
   /acorn-import-assertions/1.8.0_acorn@8.8.0:
     resolution: {integrity: sha512-m7VZ3jwz4eK6A4Vtt8Ew1/mNbP24u0FhdyfA7fSvnJR6LMdfOYnmuIrrJAgrYfYJ10F/otaHTtrtrtmHdMNzEw==}
+    deprecated: package has been renamed to acorn-import-attributes
     peerDependencies:
       acorn: ^8
     dependencies:
@@ -3002,7 +3003,7 @@ packages:
   /analyze-desumasu-dearu/5.0.1:
     resolution: {integrity: sha512-r7ruCOqvqKxAzcvDzj7PdZOstOZP9wtw/wSIoV3FmNxF16CvytxhJnHYbSRhUwqzR542OO/J9CDRWS3SSp4hZA==}
     dependencies:
-      kuromojin: 3.0.0
+      kuromojin: 3.1.0
     dev: true
 
   /ansi-escapes/4.3.2:
@@ -5736,6 +5737,10 @@ packages:
       lru_map: 0.4.1
     dev: true
 
+  /kuromojin/3.1.0:
+    resolution: {integrity: sha512-czp55A9IINhX8uGjD5zE9IKr+/oy4q8mUtUQi/xUkUkE93ER3COB92PONzX0CHiY4mrzjyuPeTg2swn7mUWEkg==}
+    dev: true
+
   /language-subtag-registry/0.3.22:
     resolution: {integrity: sha512-tN0MCzyWnoz/4nHS6uxdlFWoUZT7ABptwKPQ52Ea7URk6vll88bWBVhodtnlfEuCcKWNGoc+uGbw1cwa9IKh/w==}
     dev: true
@@ -8358,10 +8363,10 @@ packages:
       - '@textlint/types'
     dev: true
 
-  /textlint-rule-ja-no-inappropriate-words/2.0.0:
-    resolution: {integrity: sha512-gS2g8BqXv33D0QDz301aZh7EgWc2Vz70qBGJG0T3Dbtzxj/omqQCpxJtpVs5JKoGIBNkmxN5L+l0nf5TZ/luAw==}
+  /textlint-rule-ja-no-inappropriate-words/2.0.1:
+    resolution: {integrity: sha512-tVSIASQJBnLG/Upids2OuRk0hdElfyLA7TX3AKQj3vXky3VUHwX+ss87LcG9oM4ObHPme8/YVF3BXZcD/dr0zQ==}
     dependencies:
-      kuromojin: 3.0.0
+      kuromojin: 3.1.0
     dev: true
 
   /textlint-rule-ja-no-space-around-parentheses/2.2.0_e6f5qegxjw2uhpjztc7wbhaveq:
